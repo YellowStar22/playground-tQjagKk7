@@ -6,11 +6,17 @@ This Java template lets you get started quickly with a simple one-page playgroun
 // { autofold
 public class Main {
 
+
+public void modif(int value){
+   value = 2;
+}
+
 public static void main(String[] args) {
 // }
 
-String message = "Hello World!";
-System.out.println(message);
+int value = 0;
+modif(value);
+System.out.println(value);
 
 //{ autofold
 }
