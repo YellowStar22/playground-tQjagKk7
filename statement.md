@@ -7,7 +7,7 @@ This Java template lets you get started quickly with a simple one-page playgroun
 public class Main {
 
 
-public void modif(int value){
+public static void modif(int value){
    value = 2;
 }
 
